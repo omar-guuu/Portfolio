@@ -1,0 +1,309 @@
+﻿@{
+    ViewData["Title"] = "Omar Gutiérrez - Index";
+}
+
+
+<div id="wrapper" class="fade-in">
+
+
+
+    <!-- Intro -->
+    <div id="intro">
+
+        <div class="circle" style="background-image:url('img/omargutierrez.jpg')">
+
+        </div>
+
+        <h1>
+            I'm a fullstack
+            <br />
+            developer
+        </h1>
+        <p style="text-shadow: black 3px 3px 3px;">
+            My name is Omar Gutierrez (Aka <a href="https://twitter.com/omar_guuu" target="_blank">@@omar.guuu</a>)
+            <br />
+            and im a software engineer and fullstack developer
+        </p>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo">Massively</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li class="active"><a href="@Url.Action("Index", "Home")">About Me</a></li>
+            <li><a href="@Url.Action("Projects", "Home")">Past projects</a></li>
+            @*<li><a href="elements.html">Elements Reference</a></li>*@
+        </ul>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/omar-guuu/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://twitter.com/omar_guuu" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.instagram.com/omar.guuu/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+            <li><a href="https://github.com/omar-guuu" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Featured Post -->
+        <article class="post featured">
+            <header class="major">
+                @*<span class="date">April 25, 2017</span>*@
+                <h2>
+                    <a>
+                        A brief introduction
+                    </a>
+                </h2>
+                <p>
+                    I'm a software engineer graduate with 4+ years of experience in the industry<br />
+                    I started my carrer in backend development, however, I always felt <br />
+                    some sort of curiosity for how the frontend works and what it involves <br />
+                    So now i have started a journey in conecting both ends to create excelent solutions. <br />
+                    <br />
+                    You can learn more about as you continue scrolling, or download my CV below:
+                </p>
+            </header>
+            @*<a href="#" class="image main"><img src="~/img/portfolio banner 1.jpg" alt="" /></a>*@
+        <ul class="actions special">
+            <li><a href="/files/CV2021ENG_C.pdf" class="button large" download="Omar Gutierrez CV 2021" target="_blank">Download CV</a></li>
+        </ul>
+        </article>
+
+        <article class="post featured">
+            <header class="major">
+                @*<span class="date">April 25, 2017</span>*@
+                <h2>
+                    <a>
+                        Stack knowledge
+                    </a>
+                </h2>
+                <p>
+                    This are the technologies i have used through my carrer and use day to day to build awesome solutions, however, i recomend you to read my CV for the complete picture
+                </p>
+            </header>
+            @*<a href="#" class="image main"><img src="~/img/portfolio banner 1.jpg" alt="" /></a>*@
+            @*<ul class="actions special">
+                <li><a href="#" class="button large">Full Story</a></li>
+            </ul>*@
+        </article>
+
+        @*<section class="posts">
+            <h2>STACK KNOWLEDGE</h2>
+            <p>
+                This section it's about which tecnologies i'm proficent with, or i have used through my carrer.
+            </p>
+        </section>*@
+
+        <!-- Posts -->
+        <section class="posts">
+
+            <article>
+                <header>
+                    <span class="date">Backend</span>
+                    <h2>
+                        <a href="#">
+                            Programming <br />
+                            Languages
+                        </a>
+                    </h2>
+                </header>
+                <a class="image fit"><img src="img/backend_programming_lang.webp" alt="programming_languages" /></a>
+                <p>There are some of the programming languages i mainly use like: C#, Javascript, Typescript and Java, and currently looking into learning Python</p>
+                @*<ul class="actions special">
+                    <li><a href="#" class="button">Full Story</a></li>
+                </ul>*@
+            </article>
+
+            <article>
+                <header>
+                    <span class="date">Frontend</span>
+                    <h2>
+                        <a href="#">
+                            Javascript<br />
+                            Frameworks
+                        </a>
+                    </h2>
+                </header>
+                <a class="image fit"><img src="img/frontend_javascriptstack.webp" alt="javascript frameworks" /></a>
+                <p>I use javascript frameworks like: AngularJs, React, Vue to construct modern web applications, i'm currently learning React and Vue.</p>
+                @*<ul class="actions special">
+                    <li><a href="#" class="button">Full Story</a></li>
+                </ul>*@
+            </article>
+
+            <article>
+                <header>
+                    <span class="date">Backend</span>
+                    <h2>
+                        <a href="#">
+                            Databases
+                        </a>
+                    </h2>
+                </header>
+                <a class="image fit"><img src="img/backend_databases.webp" alt="databases" /></a>
+                <p>I have knowledge in this databases: MySQL, SQL, Firebase so i can implement any of this in any project to keep safe any needed data.</p>
+                @*<ul class="actions special">
+                    <li><a href="#" class="button">Full Story</a></li>
+                </ul>*@
+            </article>
+
+            <article>
+                <header>
+                    <span class="date">Frontend</span>
+                    <h2>
+                        <a href="#">
+                            Image editors<br />
+                        </a>
+                    </h2>
+                </header>
+                <a class="image fit"><img src="img/frontend_imageeditors.webp" alt="image editors" /></a>
+                <p>This tools are required to manipulate any kind of visual material, currenlty use: Paint.net, Clip Studio Paint, Photoshop</p>
+                @*<ul class="actions special">
+                    <li><a href="#" class="button">Full Story</a></li>
+                </ul>*@
+            </article>
+
+            <article>
+                <header>
+                    <span class="date">Backend</span>
+                    <h2>
+                        <a href="#">
+                            IDE &<br />
+                            text editors
+                        </a>
+                    </h2>
+                </header>
+                <a class="image fit"><img src="img/backend_ides.webp" alt="ides" /></a>
+                <p>Main tools for code writting: Visual Studio, Netbeans, Code Studio, Notepad++, Brackets, Sublime text</p>
+                @*<ul class="actions special">
+                    <li><a href="#" class="button">Full Story</a></li>
+                </ul>*@
+            </article>
+
+
+            <article>
+                <header>
+                    <span class="date">Frontend</span>
+                    <h2>
+                        <a href="#">
+                            Video Editors &<br />
+                            Audio editors and a DAW
+                        </a>
+                    </h2>
+                </header>
+                <a class="image fit"><img src="img/frontend_videoeditors.webp" alt="video audio daw" /></a>
+                <p>For any video needs: Davinci Resolve, Audacity, Reaper (DAW)</p>
+                @*<ul class="actions special">
+                    <li><a href="#" class="button">Full Story</a></li>
+                </ul>*@
+            </article>
+        </section>
+
+        <!-- Footer -->
+        <!--<footer>
+        <div class="pagination">-->
+        <!--<a href="#" class="previous">Prev</a>-->
+        <!--<a href="#" class="page active">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <span class="extra">&hellip;</span>
+            <a href="#" class="page">8</a>
+            <a href="#" class="page">9</a>
+            <a href="#" class="page">10</a>
+            <a href="#" class="next">Next</a>
+        </div>
+    </footer>-->
+
+        <footer>
+            <div class="major">
+                <h2>
+                    <a>
+                        Stay in touch
+                    </a>
+                </h2>
+                <p>
+                    If you are interested in supporting me please consider donating in the link below, i'll appreciate a lot! <br />
+                    Or for business matters please reach me at any of the links below.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+
+
+        <section>
+            <section class="split contact">
+                <h3>Donations</h3>
+            </section>
+            <section>
+                <h3>Buy me a coffee</h3>
+                <p><a href="https://www.buymeacoffee.com/omar.guuu" target="_blank">For small tips</a></p>
+            </section>
+            @*<form method="post" action="#">
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="3"></textarea>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" /></li>
+            </ul>
+        </form>*@
+        </section>
+        <section class="split contact">
+            <section class="alt">
+                <h3>Business Matter</h3>           
+            </section>
+            @*<section class="alt">
+            <h3>Address</h3>
+            <p>
+                1234 Somewhere Road #87257<br />
+                Nashville, TN 00000-0000
+            </p>
+        </section>
+        <section>
+            <h3>Phone</h3>
+            <p><a href="#">(000) 000-0000</a></p>
+        </section>*@
+            <section>
+                <h3>Email</h3>
+                <p><a href="mailto:omar_gutierrez_s@hotmail.com">omar_gutierrez_s@hotmail.com</a></p>
+            </section>
+            <section>
+                <h3>Social</h3>
+                <ul class="icons alt">
+                    <li><a href="https://www.linkedin.com/in/omar-guuu/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://twitter.com/omar_guuu" class="icon brands alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                    @*<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>*@
+                    <li><a href="https://www.instagram.com/omar.guuu/" class="icon brands alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/omar-guuu" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+
+    <!-- Copyright -->
+    <div id="copyright">
+        <ul><li>&copy; Omar Gutierrez @@ @DateTime.Today.Year.ToString()</li></ul>
+    </div>
+
+</div>
